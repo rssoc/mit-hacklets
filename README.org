@@ -2,7 +2,9 @@
 
 #+begin_quote
 "/Lasciate ogne speranza, voi ch'intrate/".
+#+end_quote
 
+#+begin_quote
 NOTICE: Past this point, there are no guarantees on the stability of
 your image. Some hacks are more dangerous than others, danger levels
 are noted, but interaction between hacks is undefined.
@@ -20,12 +22,11 @@ difference this can make[fn:2].
 
 
 * Footnotes
+[fn:1] "This is the [MIT-Scheme] Broadcasting Club. Is anyone alive
+out there?"
 
 [fn:2] Most distributions package MIT-Scheme either with the =SVM= or
 the =C= backend; which are all under-developed relative to the
 =x86-64= backend. The =C= backend especially (which is usually found
 in =mit-scheme-c-9.2=) seems like it's built to hold itself together
-long enough to bootstrap a =MIT-Scheme= with a more proper backend.
-
-[fn:1] "This is the MIT-Scheme Broadcasting Club. Is anyone alive out
-there?"
+long enough to bootstrap a MIT-Scheme with a more proper backend.
