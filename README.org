@@ -1,0 +1,31 @@
+#+TITLE: MIT-Hacklets
+
+#+begin_quote
+"/Lasciate ogne speranza, voi ch'intrate/".
+
+NOTICE: Past this point, there are no guarantees on the stability of
+your image. Some hacks are more dangerous than others, danger levels
+are noted, but interaction between hacks is undefined.
+#+end_quote
+
+I've done a lot of fun things to MIT-Scheme, but only recently decided
+to collect into a little booklet of fun (or terror) for other
+MIT-Scheme users[fn:1].
+
+Please note that particular MIT-Scheme builds are very sensitive. You
+should be running the latest MIT-Scheme off of Savannah, that you've
+built from source, instead of relying on what is offered by your
+distribution. Seasoned MIT-Scheme users know what world of a
+difference this can make[fn:2].
+
+
+* Footnotes
+
+[fn:2] Most distributions package MIT-Scheme either with the =SVM= or
+the =C= backend; which are all under-developed relative to the
+=x86-64= backend. The =C= backend especially (which is usually found
+in =mit-scheme-c-9.2=) seems like it's built to hold itself together
+long enough to bootstrap a =MIT-Scheme= with a more proper backend.
+
+[fn:1] "This is the MIT-Scheme Broadcasting Club. Is anyone alive out
+there?"
