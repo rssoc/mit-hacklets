@@ -1,5 +1,5 @@
-;;; 003-slime.el -- Elisp code to make Slime connect to MIT-Scheme's
-;;; Swank again!
+;;; slime-once-again.el -- Elisp code to make Slime connect to
+;;; MIT-Scheme's Swank again!
 ;;;
 ;;; DANGER LEVEL: None
 ;;; TESTED ON: GNU Emacs 30.0.50

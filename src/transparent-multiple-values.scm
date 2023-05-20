@@ -1,6 +1,5 @@
-;;; 000-transparent-multiple-values.scm -- The nice fallback behavior
-;;; of Common Lisp's multiple-values, with the allocation of
-;;; MIT-Scheme.
+;;; transparent-multiple-values.scm -- The nice fallback behavior of
+;;; Common Lisp's multiple-values, with the allocation of MIT-Scheme.
 ;;;
 ;;; DANGER LEVEL: None
 ;;; TESTED ON: Release 12.1 || SF || LIAR/x86-64

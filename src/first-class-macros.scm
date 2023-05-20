@@ -1,4 +1,4 @@
-;;; 001-first-class-macros.scm -- First-class macros to MIT-Scheme.
+;;; first-class-macros.scm -- First-class macros to MIT-Scheme.
 ;;;
 ;;; DANGER LEVEL: High (probably)
 ;;; TESTED ON: Release 12.1 || SF || LIAR/x86-64
@@ -18,7 +18,7 @@
 
 
 
-;; This is the 002-THE-ENVIRONMENT.scm hack.
+;; This is the the-environment-anywhere.scm hack.
 (eval
  '(define $the-environment
     (spar-classifier->runtime

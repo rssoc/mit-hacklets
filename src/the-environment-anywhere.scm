@@ -1,5 +1,5 @@
-;;; 002-the-environment.scm -- Allow THE-ENVIRONMENT to be called from
-;;; anywhere, not just the top level.
+;;; the-environment-anywhere.scm -- Allow THE-ENVIRONMENT to be called
+;;; from anywhere, not just the top level.
 ;;;
 ;;; DANGER LEVEL: Medium
 ;;; TESTED ON: Release 12.1 || SF || LIAR/x86-64
